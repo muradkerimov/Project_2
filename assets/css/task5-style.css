@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+.right {
+    float: right;
+}
+.left {
+    float: left;
+}
+.clearfix {
+    clear: both;
+    width: 0;
+    height: 0;
+}
+.logo{
+    height: 8vh;
+    line-height: 8vh;
+    width: 24%;
+    border: 2px solid black;
+    margin: 0.5%;
+}
+.header-content{
+    height: 8vh;
+    line-height: 8vh;
+    width: 74%;
+    border: 2px solid black;
+    margin: 0.5%;
+}
+.primary-navigation{
+    width: 99%;
+    height: 8vh;
+    line-height: 8vh;
+    border: 2px solid black;
+    margin: 0 0.5% 0.5%;
+}
+.photo-area{
+    height: 32.5vh;
+    line-height: 32.5vh;
+    width: 49.25%;
+    border: 2px solid black;
+    margin: 0 0.25% 0.5% 0.5%;
+}
+.primary-messaging-area{
+    height: 32.5vh;
+    line-height: 32.5vh;
+    width: 49.25%;
+    border: 2px solid black;
+    margin: 0 0.5% 0.5% 0.25%;
+}
+.secondary-messaging-area:nth-child(3n-2){
+    height: 32.5vh;
+    line-height: 32.5vh;
+    width: calc(98%/3);
+    border: 2px solid black;
+    margin:0 0.5% 0.5%;
+}
+.secondary-messaging-area:nth-child(3n-1){
+    height: 32.5vh;
+    line-height: 32.5vh;
+    width: calc(98%/3);
+    border: 2px solid black;
+    margin: 0 0 0.5%;
+}
+.secondary-messaging-area:nth-child(3n){
+    height: 32.5vh;
+    line-height: 32.5vh;
+    width: calc(98%/3);
+    border: 2px solid black;
+    margin:0 0.5% 0.5%;
+}
+.footer{
+    width: 99%;
+    margin: 0 0.5% 0.5%;
+    height: 8vh;
+    border: 2px solid black;
+    line-height: 8vh;
+}
